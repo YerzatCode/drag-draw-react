@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app{
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+.card{
+  border-radius: 15px;
+  border: black solid;
+  align-items: center;
+  display: grid;
+  padding: 40px 30px;
+  transition: .2s ease-in-out;
+  height: 300px;
+  cursor: grab;
+  font-size: 24px;
+  font-weight: bold;
+}
+.card:hover{
+  background: rgb(202, 202, 202);
+  scale: 1.1;
+}
